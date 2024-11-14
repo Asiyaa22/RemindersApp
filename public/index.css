@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header {
+    width: 100%;
+    height: 12vh;
+    padding: 10px;
+    background-color: black;
+}
+.nav-bar {
+    padding: 11px;
+    height: 100%;
+    color: #fff;
+    margin-left: 5%;
+    font-size: 18px;
+    cursor: pointer;
+}
+.main {
+    width: 100%;
+    height: 80%;
+    padding: 20px;
+}
+.notes {
+    width: 10em;
+    height: 8em;
+    background-color: rgb(199, 116, 130);
+    color: #fff;
+    border-radius: 0.5em;
+    padding: 0.8em;
+    cursor: pointer;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
