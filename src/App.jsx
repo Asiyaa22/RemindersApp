@@ -4,17 +4,29 @@ import Notes from "C:/Users/Hp/Desktop/reminders-app/src/Components/Notes.jsx";
 import { reminders } from "./data.js";
 
 
-function createReminders(reminder){
-  return <Notes 
-    key={reminder.id}
-    value={reminder.id}
-    title={reminder.heading}
-    txt={reminder.detail}
-  />
-}
+// function createReminders(reminder){
+//   return <Notes 
+//     key={reminder.id}
+//     value={reminder.id}
+//     title={reminder.heading}
+//     txt={reminder.detail}
+//   />
+// }
+
+//Arrow Functions in react
+
+var create = (reminder) => <Notes 
+key={reminder.id}
+value={reminder.id}
+title={reminder.heading}
+txt={reminder.detail}
+/>;
+
+// woww I am loving Arrow Functions
 function App(){
   return <div className="main">
-    {reminders.map(createReminders)}
+    {reminders.map(create)}
+    {/* {reminders.map(createReminders)} */}
     {/* Instead of all this hardwork we can Map data to Components  */}
     {/* using Javascript Map() function We use functional programming here */}
     {/* <Notes title={array[0].heading} txt={array[0].detail} />
