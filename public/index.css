@@ -43,3 +43,15 @@
     padding: 20px;
     width: 100%;
 }
+.add {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    background-color: rgb(247, 185, 13);
+    color: #fff;
+    border: none;
+    outline: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}

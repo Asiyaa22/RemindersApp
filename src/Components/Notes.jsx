@@ -12,6 +12,7 @@ Notes.propTypes = {
   // value: PropTypes.int.isRequired,
   title: PropTypes.string.isRequired,
   txt: PropTypes.string.isRequired,
+  value: PropTypes.any
 };
 
 export default Notes;

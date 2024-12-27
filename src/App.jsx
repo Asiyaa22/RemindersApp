@@ -2,6 +2,7 @@
 
 import Notes from "C:/Users/Hp/Desktop/reminders-app/src/Components/Notes.jsx";
 import { reminders } from "./data.js";
+import Button from "./Components/Button.jsx";
 
 
 // function createReminders(reminder){
@@ -32,6 +33,7 @@ function App(){
     {/* <Notes title={array[0].heading} txt={array[0].detail} />
     <Notes title={array[1].heading} txt={array[1].detail} />
     <Notes title={array[2].heading} txt={array[2].detail} /> */}
+    <Button />
   </div>
 }
 
