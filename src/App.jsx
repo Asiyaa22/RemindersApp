@@ -1,6 +1,6 @@
 // import Notes from "./Components/Notes.jsx;"
 
-import Notes from "C:/Users/Hp/Desktop/reminders-app/src/Components/Notes.jsx";
+import Notes from "../src/Components/Notes.jsx";
 import { reminders } from "./data.js";
 import Button from "./Components/Button.jsx";
 
